@@ -11,3 +11,12 @@
             event.currentTarget.classList.add("active-links");
             document.getElementById(tabname).classList.add("active-tab")
         }
+
+ var sideMenu = document.getElementById("sidemenu")
+
+ function openMenu(){
+    sideMenu.style.right = "0"
+ }
+function closeMenu() {
+    sideMenu.style.right = "-200px"
+}
