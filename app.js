@@ -20,3 +20,8 @@
 function closeMenu() {
     sideMenu.style.right = "-200px"
 }
+
+window.addEventListener("scroll", function () {
+    var header = document.getElementById("scroll");
+    header.classList.toggle("stick", window.scrollY > 0);
+})
